@@ -1,0 +1,51 @@
+# ————— Python bytecode —————
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ————— Virtual environments —————
+.env/
+.venv/
+venv/
+ENV/
+
+# ————— Logs —————
+logs/
+*.log
+
+# ————— Test / coverage —————
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ————— IDE / editor —————
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ————— Jupyter —————
+.ipynb_checkpoints/
+
+# ————— Build / packaging —————
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ————— Data —————
+data/
+# nếu bạn có một số data mẫu commit vào repo thì loại bỏ dòng này
+
+# ————— Models / checkpoints / outputs —————
+runs/
+wandb/
+*.pt
+
+# ————— Generated images —————
+output_*.jpg
+output_*.png
+
+# ————— OS files —————
+.DS_Store
+Thumbs.db

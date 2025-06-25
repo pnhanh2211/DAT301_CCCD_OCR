@@ -1,0 +1,14 @@
+train: E:/cccd-ocr-face-verification/data
+val: E:/cccd-ocr-face-verification/data
+test: E:/cccd-ocr-face-verification/data
+
+train_dir: train/images
+val_dir: val/images
+test_dir: test/images
+
+train_annotations: train/labels
+val_annotations: val/labels
+test_annotations: test/labels
+
+nc: 12
+names: ['current_place', 'dob', 'expire_date', 'features', 'finger_print', 'gender', 'id', 'issue_date', 'name', 'nationality', 'origin_place', 'qr']

@@ -1,0 +1,27 @@
+cuda_devices: "0"
+pretrained_weights: "E:/cccd-ocr-face-verification/models/yolov11/yolo11n.pt"
+epochs: 100
+imgsz: 640
+batch: 16
+workers: 8
+optimizer: "AdamW"
+learning_rate: 0.01
+weight_decay: 0.0005
+momentum: 0.937
+warmup_epochs: 3
+close_mosaic: 10
+project: "runs/train"
+name: "exp"
+save_period: 10
+cache: false
+multi_scale: true
+amp: true
+early_stopping_patience: 7
+
+# WandB configuration
+wandb:
+  project: "cccd-ocr-face-verification"
+  entity: "anhpnhse160891-fpt-university"  # Thay bằng username của bạn trên WandB, hoặc để trống nếu dùng tài khoản cá nhân
+  group: "yolov11-training"
+  job_type: "train"
+  tags: ["yolov11", "cccd"]

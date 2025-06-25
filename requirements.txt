@@ -1,0 +1,29 @@
+# Web framework
+Flask>=2.0
+
+# Computer vision
+opencv-python>=4.5
+
+# YOLOv11 (Ultralytics)
+ultralytics>=8.0.0
+
+# PyTorch and Vision (for YOLO & FaceNet)
+torch>=1.12.0
+torchvision>=0.13.0
+
+# VietOCR (Transformer-CTC for Vietnamese OCR)
+vietocr
+
+# FaceNet / MobileFaceNet for face embeddings
+facenet-pytorch>=2.5.2
+
+# Face detection (MTCNN)
+mtcnn>=0.1.1
+
+# TensorFlow (if using TensorFlow-based models or VietOCR TF backend)
+tensorflow>=2.8.0
+
+# Utilities
+numpy>=1.21
+PyYAML>=5.4
+Pillow>=8.3
