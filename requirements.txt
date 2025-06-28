@@ -27,3 +27,4 @@ tensorflow>=2.8.0
 numpy>=1.21
 PyYAML>=5.4
 Pillow>=8.3
+rfdetr
