@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
 
 # ————— Virtual environments —————
 .env/
@@ -23,6 +24,9 @@ htmlcov/
 .idea/
 *.sublime-workspace
 *.sublime-project
+*.swp
+*.swo
+*~
 
 # ————— Jupyter —————
 .ipynb_checkpoints/
@@ -32,19 +36,45 @@ build/
 dist/
 *.egg-info/
 .eggs/
+develop-eggs/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+.installed.cfg
 
 # ————— Data —————
-data/
-# nếu bạn có một số data mẫu commit vào repo thì loại bỏ dòng này
+data/*.zip
+data/test/
+data/train/
+data/val/
+# Keep data.yaml and README files
+!data/*.yaml
+!data/README*
 
 # ————— Models / checkpoints / outputs —————
 runs/
 wandb/
+models/*
+!models/.gitkeep
 *.pt
+*.pth
+*.h5
+*.hdf5
+results/
+storage/
 
-# ————— Generated images —————
-output_*.jpg
-output_*.png
+# ————— Generated images and media —————
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.zip
 
 # ————— OS files —————
 .DS_Store
